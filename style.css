@@ -9,30 +9,6 @@ body {
     background-color: #fff;
 }
 
-header {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.header-top {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.date-display {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-header h1 {
-    font-size: 2em;
-    color: #ff0000;
-}
-
 .container {
     display: flex;
     min-height: 100vh;
@@ -71,8 +47,30 @@ header h1 {
     padding: 20px;
 }
 
-.content-header {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0 0 20px 0;
+    background-color: #fff;
     margin-bottom: 20px;
+}
+
+.header-top {
+    flex: 1;
+}
+
+.date-display {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #ff0000;
 }
 
 .content-container {
