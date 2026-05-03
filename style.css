@@ -81,12 +81,25 @@ h1 {
 }
 
 .date-nav {
-    font-size: 12px;
+    font-size: 14px;
     color: #1a1a1a;
     padding: 10px;
 }
 
 .date-nav a {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+/* DATE NAV TOP RIGHT */
+.date-nav-top {
+    position: absolute;
+
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+.date-nav-top a {
     color: #1a1a1a;
     font-weight: bold;
 }
